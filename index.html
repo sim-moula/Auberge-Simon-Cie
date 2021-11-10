@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link pour lier le fichier html au fichier css -->
+
+    <link rel="stylesheet" href="style.css">
+
+     <!-- link avec le lien pour le style de de police et caractere  -->
+
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- titre du site  -->
+    <title>Auberge Simon & Cie</title> 
+
+     <!-- link avec le lien pour rendre plus rapide et plus facile le chargement des fichiers de bibliothèque sur le site .  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<body>
+
+    <!-- En-tete du site ou menu de navigastion  -->
+<header>
+    <a href="#" class="logo"><span>Auberge  </span> Simon & Cie</a>
+
+             <!-- (div )pour mes element de division du contenu a ma bare de navigation 
+                (li) pour represtnter mes elements qui est contenu dans mon element parent non ordonnee (ul)
+                 et le (a) difinit mon lien hypertexte qui va permettre au utilisateur de naviguer d une section a une autre
+                remarque : meme principe la ou on retrouve les meme balises  -->
+
+    <div class="toggleMenu" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#pageAccueil" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#NosChaletEtChambres" onclick="toggleMenu();">Nos chalets Et Chambres</a></li>
+        <li><a href="#notremenu" onclick="toggleMenu();">Notre menu</a></li>
+        <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <a href="#" class="btn-reserve"onclick="toggleMenu();">Reservation</a>
+    </ul>
+</header>  
+
+<!-- section 1 page d'accueil  -->
+
+<section class="pageAccueil" id="pageAccueil">
+    <div class="contenu">
+        <h2>un lieu unique pour un sejour unique</h2>  
+
+        <!-- (p)  representre mon paragraphe de texte  -->
+
+        <p>Spectaculaire en soit, le prestigieux auberge Simon & Cie constitue un cadre idélique pour de merveilleuses vacances au soleil tout au long de l'année.
+            Parfaitement situé au bord du littoral de la region de la haute kabylie c'est la destination de choix pour une escapade de détente et d'aventure tout en créant des moments inoubliables que les couples,
+            familles et célibataires chérirons pour la vie. Préparez-vous pour vos vacances au bord de la plage paradisiaque de tigzirt sur mer.</p>
+        <a href="#" class="btn1">Notre Menu</a>
+        <a href="#" class="btn2">Reservation</a>
+    </div>
+    </section>
+
+    <!-- section 2 a propos de nous   -->
+
+    <section class="apropos" id="apropos">
+        <div class="apropos">
+            <div class="col50">
+                 <h2 class="titre-texte"><span>A</span> Propos De Nous</h2> 
+                 <p> Établie en 2021 unique dans un decor magique
+                    , l'Auberge Simon &Cie est um endroit familial crée par une famille amoureuse de la région, vous y trouverez le calme et le repos que vous cherchez.
+                    Son personnel accueillant qui assistera et guidera tout au long de votre séjour, Nos chambres vous offriront un lit douillet avec de la literie de qualité pour un sommeil réparateur. Vous pourrez également vous relaxer sur notre terrasse et profiter du spa intérieur ouvert à l’année. Petit déjeuner méditerranéen, stationnement et wifi sont offerts gratuitement .Service de navette disponible sur demande*
+                    une marche de 5 minutes et vous serez au Centre-ville de Tigzirt, restaurants, boutiques et activités sont présentes  et vous serez également a 2 minute de marche pour être au bord de l’ eau
+                    L’Auberge vous permet d’être au cœur de l’action, tout en profitant de l’atmosphère de détente de la nature qu’offre la région kabyle.
+                </p> 
+            </div>
+             
+            <div class="col50">
+    
+                <!-- Video de presentation -->
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/S6wKbSs9WZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+                
+        </section>
+    </div>
+    </div>
+         
+
+           <!-- section 3 chambres et chalets   --> 
+
+</section>
+<section class="NosChaletEtChambres" id="NosChaletEtChambres">
+<div class="titre">
+<h2 class="titre-texte"><span>nos</span>chalets et chambres</h2>
+<p>Nos chalets, situés à quelques minutes de la plage tigzirt, sont disponibles à la location.</p>
+</div>
+<div class="contenu">
+<div class="box">
+    <div class="imbox">
+        <img src="images/chalet deux chambres.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chalet deux chambres</h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/le trappeur.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Le trappeur</h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/Chambre Lit Double + TV + nini frigo.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chambre lit double + TV + frigo</h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/Chambre Lit King + TV + mini frigo.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chambre lit King + TV + frigo</h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/Chambre Lit Queen + TV + mini frigo.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chambre lit Queen + TV + frigo</h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/Chambre Lit Queen + TV.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chambre lit Queen + TV </h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/Chambre Lit King + TV.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Chambre lit King + TV </h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imbox">
+        <img src="./images/plage tigzirt.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Plage tigzirt</h3>
+    </div>
+</div>
+</div>
+</div>
+<div class="titre">
+<a href="#" class="btn1">Voir Plus</a>
+</div>
+
+            
+      <!-- section 4 menu et contenu   -->        
+                
+            </section>
+<section class="notremenu" id="notremenu">
+    <div class="titre">
+        <h2 class="titre-texte">Notre <span>m</span>enu</h2>
+        <p>Venez découvrir les saveurs de la kabylie dans un tout nouveau décor. On offre une fine cuisine berbre.veau, fruits de mer ainsi que  l’authentique couscous de la kabylie .. </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+
+            <!-- (img)  pour inserer des images -->   
+
+                <img src="./images/couscous.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Couscous kabyle</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/viande.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Nos viandes</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/poisson.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Nos poissons</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/dessert.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Nos desrts</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+</section>
+
+         <!-- section 5 temoignage et contenu   -->  
+
+ <section class="temoignage" id="temoignage">
+    <div class="titre blanc">
+        <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+        <p>Restez informé sur l'auberge Simon & Cie  Le meilleur voyage est celui que vous n’avez pas encore fait… . </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t1.jpeg" alt="">
+            </div>
+            <div class="text">
+                <p>Séjour…
+                    "Un très beau séjour et un super bel acceuil a l'auberge Simon & Cie  ...ça fait du bien de s'évader à un endroit aussi féerique. Tout le personnel est très sympathique, professionnel et serviable. Je vous le recommande. Nous y retournerons c'est certain".</p>
+                <h3>Aziz halou</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t2.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Excellent
+                    "Tout a été parfait, nous nous sommes sentis exceptionnels, le personnel de service est vraument attentionné, gentil, serviable. Je recommanderai forcément à mes amis. Et si l'occasion se présente j'y reviendrai ".</p>
+                <h3>Youcef abib</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t3.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>" Très beau séjour! service courtois et de qualité! Magnifique place! idéalement situé au de la Magnifique ville de tigzirt, Les aménagements extérieurs et les piscines sont très bien et nous permettent de belles périodes de relaxation.".</p>
+                <h3>cyrille</h3>
+            </div>
+        </div>
+    </div>
+ </section>
+
+              <!-- section 4 contact et contenu   -->   
+
+     <section class="contact" id="contact">
+     <div class="titre noir">
+         
+         <p>3045 Chemin de lilou, Tigzirt - Tizi Ouzou J8E1E1 Establishment No: 128365, Algerie aubergesimon@Tigzirt.com.</p>
+     </div> 
+
+    <div class="contactformulaire">
+         <h3>Envoyer un message</h3>
+         <div class="inputboite">
+             <input type="text" placeholder="Nom">
+         </div>
+         <div class="inputboite">
+            <input type="text" placeholder="email">
+         </div>
+         <div class="inputboite">
+            <textarea placeholder="message"></textarea>
+         </div>
+         <div class="inputboite">
+             <input type="submit" value="envoyer">
+         </div>
+     </div>
+ </section>  
+    
+     <section class="audio" id="audio">
+        <div class="titre">
+            <h2 class="titre-texte"><span>Ass</span> n tlelli</h2>
+            <p>L'hymne national kabyle</p>
+        </div>
+        <div class="player">
+            <div class="imgbx">
+                <img src="images/vitrineprin.jpg" alt="">
+                <audio controls>
+                    <source src="audio/L'Hymne National Kabyle - Sous titré en Français.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+
+
+     </section>
+
+    <div class="reseauxSociaux">
+
+    <p>Tigzirt 2021 <a href="#">Suivez-nous sur les réseaux sociaux :</p>
+  </div>
+  <center><div id="icons">
+   <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+   <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+   <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></center>
+
+<!--  script pour un effet collant de  l'En-tete du site / menu de navigastion en deroulant les section  -->
+
+  <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const toggleMenu = document.querySelector('.toggleMenu');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         toggleMenu.classList.toggle('active');
+         
+         
+     }
+ </script>
+</body>
+</html>
